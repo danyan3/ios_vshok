@@ -41,7 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B180D6B2E3817730064BEB1 /* iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B180D9C2E3851EC0064BEB1 /* yavshok-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yavshok-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B180D9D2E3851EC0064BEB1 /* iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		672D2F122E10760A004295B5 /* cat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cat.gif; sourceTree = "<group>"; };
 		672D2F142E1077BE004295B5 /* ConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		672D2F152E1077BE004295B5 /* GIFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFView.swift; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		672D2F2E2E108FF0004295B5 /* profile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = profile.gif; sourceTree = "<group>"; };
 		672D2F342E1093DD004295B5 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 		672D2F382E109B25004295B5 /* EditProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
-		67F1FD142E10715D001FDF03 /* yavshok-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yavshok-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F1FD172E10715D001FDF03 /* yavshok_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yavshok_iosApp.swift; sourceTree = "<group>"; };
 		67F1FD192E10715D001FDF03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,17 +150,9 @@
 			children = (
 				67F1FD162E10715D001FDF03 /* yavshok-ios */,
 				3B180D6C2E3817730064BEB1 /* iosUITests */,
-				67F1FD152E10715D001FDF03 /* Products */,
+				3B180D9C2E3851EC0064BEB1 /* yavshok-ios.app */,
+				3B180D9D2E3851EC0064BEB1 /* iosUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		67F1FD152E10715D001FDF03 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				67F1FD142E10715D001FDF03 /* yavshok-ios.app */,
-				3B180D6B2E3817730064BEB1 /* iosUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		67F1FD162E10715D001FDF03 /* yavshok-ios */ = {
@@ -197,7 +189,7 @@
 			packageProductDependencies = (
 			);
 			productName = iosUITests;
-			productReference = 3B180D6B2E3817730064BEB1 /* iosUITests.xctest */;
+			productReference = 3B180D9D2E3851EC0064BEB1 /* iosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		67F1FD132E10715C001FDF03 /* yavshok-ios */ = {
@@ -216,7 +208,7 @@
 			packageProductDependencies = (
 			);
 			productName = "yavshok-ios";
-			productReference = 67F1FD142E10715D001FDF03 /* yavshok-ios.app */;
+			productReference = 3B180D9C2E3851EC0064BEB1 /* yavshok-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -248,8 +240,9 @@
 			);
 			mainGroup = 67F1FD0B2E10715C001FDF03;
 			packageReferences = (
+				3B180E192E3863590064BEB1 /* XCRemoteSwiftPackageReference "Fakery" */,
 			);
-			productRefGroup = 67F1FD152E10715D001FDF03 /* Products */;
+			productRefGroup = 67F1FD0B2E10715C001FDF03;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -494,7 +487,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,7 +519,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,6 +564,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B180E192E3863590064BEB1 /* XCRemoteSwiftPackageReference "Fakery" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vadymmarkov/Fakery";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 67F1FD0C2E10715C001FDF03 /* Project object */;
 }
